@@ -1,0 +1,38 @@
+.card {
+    width: 75%;
+    height: 55vh;
+
+    background-color: white;
+    padding: 25px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-card p{
+    margin-top: 25px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.button{
+    width: 70%;
+    margin: 0 auto;
+
+    padding: 10px;
+    border: none;
+
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+.button:hover{
+    background-color: rgb(197, 197, 197);    
+}
+
+
