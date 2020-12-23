@@ -1,6 +1,5 @@
 .card {
-    width: 75%;
-    height: 55vh;
+    height: 350px;
 
     background-color: white;
     padding: 25px;
@@ -10,10 +9,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    flex: 1 1 220px;
+    margin: 12px 10px;
 }
 
 .content-card p{
-    margin-top: 25px;
+    margin: 25px 0;
 }
 
 .card:hover{
