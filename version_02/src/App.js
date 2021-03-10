@@ -1,8 +1,9 @@
+import { HomePage } from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Ha</h1>
+      <HomePage />  
     </div>
   );
 }
