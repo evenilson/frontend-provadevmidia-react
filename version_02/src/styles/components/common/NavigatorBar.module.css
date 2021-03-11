@@ -1,0 +1,34 @@
+.navigatorBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 2.5rem;
+
+    background: var(--gray-line);
+}
+
+.navigatorBarContainer span {
+    font-size: large;
+
+    font-weight: 500;
+}
+
+.navigatorBarContainer span, input {
+    padding: 0 .7rem ;
+}
+
+.navigatorBarContainer nav a, input {
+    margin-left: 1rem;
+}
+
+.navigatorBarContainer nav a {
+    text-transform: uppercase;
+
+    font-size: .85rem;
+}
+
+.navigatorBarContainer input {
+    border: transparent;
+    border-radius: .5rem;
+}

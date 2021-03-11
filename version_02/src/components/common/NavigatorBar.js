@@ -6,11 +6,11 @@ export function NavigatorBar() {
     return(
         <header className={styles.navigatorBarContainer}>
             <NavLink exact to='/'><span>LOGO</span></NavLink>
-            <div>
+            <nav>
                 <NavLink to='/'>cadastrar notícia</NavLink>
                 <NavLink to='/'>exibir noticia</NavLink>
                 <input type="text" />
-            </div>
+            </nav>
         </header>
     );
 }
