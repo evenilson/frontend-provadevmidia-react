@@ -11,6 +11,9 @@ export function NavigatorBar() {
                 <NavLink to='/'>exibir noticia</NavLink>
                 <input type="text" />
             </nav>
+            <div className={styles.hamburguerBt}>
+                <div></div><div></div><div></div>
+            </div>
         </header>
     );
 }
