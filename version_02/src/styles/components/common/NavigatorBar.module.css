@@ -22,6 +22,11 @@
     margin-left: 1rem;
 }
 
+.navigatorBarContainer nav {
+    transition: .5s;
+
+}
+
 .navigatorBarContainer nav a {
     text-transform: uppercase;
 
@@ -80,7 +85,8 @@
     }
 
     .navigatorBarContainer nav {
-        display: none;
+        top: -500rem;
+        position: fixed;
     }
 
     .navigatorBarContainer {
@@ -105,12 +111,15 @@
         width: 100%;
         height: 100vh;
 
-        background: rgba(0, 0, 0, .5);
+        background: rgba(0, 0, 0, .9);
+
+        animation: navigator 2s;
     }
 
-    .hamburguerBt.active + nav a {
-        margin: 3rem 0;
+    .hamburguerBt.active + nav a, input {
+        margin: 2rem 0;
 
         color: var(--white);
     }
 }
+
