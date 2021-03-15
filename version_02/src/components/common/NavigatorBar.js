@@ -7,7 +7,7 @@ export function NavigatorBar() {
     const [hamburguerBtActive, setHamburguerBtActive] = useState(styles.hamburguerBt)
 
     function handleHambugerBt(){
-        hamburguerBtActive ? setHamburguerBtActive(`${styles.hamburguerBt} ${styles.active}`) : setHamburguerBtActive(styles.hamburguerBt)
+        hamburguerBtActive===styles.hamburguerBt ? setHamburguerBtActive(`${styles.hamburguerBt} ${styles.active}`) : setHamburguerBtActive(styles.hamburguerBt)
     }
 
     return(
