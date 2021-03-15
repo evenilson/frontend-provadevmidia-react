@@ -34,12 +34,16 @@
 }
 
 .hamburguerBt {
+    position: fixed;
+    right: 0;
+    z-index: 2;
+
     cursor: pointer;
 
     height: 1.1rem;
     width: 1.2rem;
 
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -68,4 +72,45 @@
 
 .hamburguerBt.active div:nth-child(3){
     transform: translateY(-.43rem) rotate(317deg);
+}
+
+@media screen and (max-width: 600px) {
+    .hamburguerBt {
+        display: flex;
+    }
+
+    .navigatorBarContainer nav {
+        display: none;
+    }
+
+    .navigatorBarContainer {
+        justify-content: space-between;
+    }
+
+    .hamburguerBt.active div{
+        background: var(--white);
+    }
+
+    .hamburguerBt.active + nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 100vh;
+
+        background: rgba(0, 0, 0, .5);
+    }
+
+    .hamburguerBt.active + nav a {
+        margin: 3rem 0;
+
+        color: var(--white);
+    }
 }
