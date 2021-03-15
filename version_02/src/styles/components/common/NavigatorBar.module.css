@@ -54,6 +54,8 @@
     background: var(--text);
 
     border-radius: 25%;
+
+    transition: .5s ease-out;
 }
 
 .hamburguerBt.active div:nth-child(1){
