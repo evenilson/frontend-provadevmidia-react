@@ -14,8 +14,8 @@
     font-weight: 500;
 }
 
-.navigatorBarContainer span, input {
-    padding: 0 .7rem ;
+.navigatorBarContainer span, input{
+    padding: 0 .7rem;
 }
 
 .navigatorBarContainer nav a, input {
@@ -43,6 +43,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    margin-right: 1rem;
 }
 
 .hamburguerBt > div{
@@ -52,4 +54,16 @@
     background: var(--text);
 
     border-radius: 25%;
+}
+
+.hamburguerBt.active div:nth-child(1){
+    transform: translateY(.5rem) rotate(-317deg);
+}
+
+.hamburguerBt.active div:nth-child(2){
+    opacity: 0;
+}
+
+.hamburguerBt.active div:nth-child(3){
+    transform: translateY(-.43rem) rotate(317deg);
 }
