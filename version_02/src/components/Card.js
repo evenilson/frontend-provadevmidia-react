@@ -1,13 +1,16 @@
+import Card from "../../../version_01/src/components/card/Card";
 
 
-export default props => (
-    <div className={styles.cardContainer}>
-        <section>
-            <h3>{props.title}</h3>
-            <p>
-                {props.info}
-            </p>
-        </section>
-        <button >Acessar</button>
-    </div>
-)
+export function Card() {
+    return (
+        <div className={styles.cardContainer}>
+            <section>
+                <h3>{props.title}</h3>
+                <p>
+                    {props.info}
+                </p>
+            </section>
+            <button >Acessar</button>
+        </div>
+    );
+}
