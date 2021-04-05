@@ -1,4 +1,8 @@
+import styles from "../styles/components/Content.module.css"
+
+
 import { Card } from "./Card";
+
 
 
 export function Content() {
