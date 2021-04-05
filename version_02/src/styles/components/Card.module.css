@@ -1,0 +1,39 @@
+.cardContainer {
+    width: 200px;
+    height: 300px;
+
+    margin: 1rem;
+
+    background: var(--gray-line);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: .5rem;
+
+}
+
+.cardContainer section h3{
+    margin-bottom: .5rem;
+    font-size: medium;
+
+    text-align: center;
+}
+
+.cardContainer section p{
+    text-align: justify;
+
+    font-size: medium;
+}
+
+.cardContainer button {
+    background: var(--text);
+    color: var(--white);
+    font-size: small;
+
+    border: none;
+
+    padding: .3rem 1rem;
+}
