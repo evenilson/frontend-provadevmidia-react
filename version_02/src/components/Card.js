@@ -1,6 +1,3 @@
-import Card from "../../../version_01/src/components/card/Card";
-
-
 export function Card() {
     return (
         <div className={styles.cardContainer}>
