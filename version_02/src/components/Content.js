@@ -307,7 +307,7 @@ export function Content() {
     ]
 
     const cardsMake = cardsInfo.map((card) =>
-        <Card key={card.title} title={card.title} info={card.info}/>
+        <Card title={card.title} info={card.info}/>
     );
     
     return (
