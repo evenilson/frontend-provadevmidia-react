@@ -15,6 +15,14 @@
 
     border-radius: 8px;
 
+    transition: .2s;
+
+}
+
+.cardContainer:hover {
+    transform: translateY(-5px);
+
+    border: thin solid black;
 }
 
 .cardContainer section h3{
