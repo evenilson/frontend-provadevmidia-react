@@ -4,7 +4,7 @@
 
     margin: 1rem;
 
-    background: var(--gray-line);
+    background: var(--white);
 
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@
 }
 
 .cardContainer button {
-    background: var(--text);
+    background: var(--text-highlight);
     color: var(--white);
     font-size: small;
 
