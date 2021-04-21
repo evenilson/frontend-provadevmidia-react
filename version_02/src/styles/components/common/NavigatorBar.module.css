@@ -5,7 +5,9 @@
 
     height: 2.5rem;
 
-    background: var(--text-highlight);
+    background: var(--blue-dark);
+
+    color: var(--white);
 }
 
 .navigatorBarContainer span {

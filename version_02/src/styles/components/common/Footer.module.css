@@ -12,5 +12,7 @@
 
     text-transform: uppercase;
 
-    background: var(--text-highlight);
+    background: var(--blue-dark);
+
+    color: var(--white);
 }
