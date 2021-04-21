@@ -40,10 +40,18 @@
 
 .cardContainer button {
     background: var(--text-highlight);
-    color: var(--white);
-    font-size: small;
+    color: var(--blue-dark);
+    font-size: smaller;
+
+    font-weight: 500;
 
     border: none;
 
     padding: .3rem 1rem;
+
+    border-radius: 5px;
+}
+
+.cardContainer button:hover{ 
+    border: 1px solid var(--blue-dark);
 }
