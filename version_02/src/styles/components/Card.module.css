@@ -22,7 +22,7 @@
 .cardContainer:hover {
     transform: translateY(-5px);
 
-    border: 1px solid ;
+    border-bottom: 5px solid ;
 }
 
 .cardContainer section h3{
